@@ -9,5 +9,5 @@ const Container = styled.div`
 `;
 
 export const Footer = () => {
-  return <Container>created by @kctrnn 🎉</Container>;
+  return <Container>created by @nguyenngocny 🎉</Container>;
 };
