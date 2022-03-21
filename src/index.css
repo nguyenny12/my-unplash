@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 500;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* BTN */
+.btn {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  border: none;
+
+  font-size: 0.875rem;
+  color: #bdbdbd;
+  font-weight: 600;
+  line-height: calc(19 / 14);
+
+  background-color: transparent;
+
+  opacity: 0.85;
+  transition: opacity 200ms ease-in-out;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #3db46d;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+  background-color: #eb5757;
+  color: white;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
